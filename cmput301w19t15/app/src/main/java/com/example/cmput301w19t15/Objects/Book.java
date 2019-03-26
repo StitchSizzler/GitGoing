@@ -1,5 +1,5 @@
 package com.example.cmput301w19t15.Objects;
-//:)
+//
 
 import com.example.cmput301w19t15.Activities.AddBookInfo;
 import com.example.cmput301w19t15.Activities.BookInfo;
