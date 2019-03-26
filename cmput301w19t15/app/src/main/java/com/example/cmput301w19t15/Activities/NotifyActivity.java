@@ -1,4 +1,4 @@
-package com.example.cmput301w19t15.Activity;
+package com.example.cmput301w19t15.Activities;
 //:)
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 
-import com.example.cmput301w19t15.InProgress.AcceptRequest;
+import com.example.cmput301w19t15.ToDo.AcceptRequest;
 import com.example.cmput301w19t15.Objects.NotifAdapter;
 import com.example.cmput301w19t15.Objects.Notification;
 import com.example.cmput301w19t15.R;

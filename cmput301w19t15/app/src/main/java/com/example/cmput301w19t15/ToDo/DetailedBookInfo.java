@@ -1,4 +1,4 @@
-package com.example.cmput301w19t15.InProgress;
+package com.example.cmput301w19t15.ToDo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/grad2"
-    tools:context=".Functions.ScanBarcode">
+    tools:context=".Function.ScanBarcode">
     <fragment
         android:id="@+id/barcode_fragment"
         android:name="info.androidhive.barcode.BarcodeReader"

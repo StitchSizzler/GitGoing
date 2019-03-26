@@ -12,7 +12,7 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package com.example.cmput301w19t15.Activity;
+package com.example.cmput301w19t15.Activities;
 //:)
 /**
  * Represents a database search for the books
@@ -154,7 +154,7 @@ public class FindBooks extends AppCompatActivity implements BookAdapter.OnItemCl
     /**
      * Load my book from firebase.
      *
-     * @param myCallback part of loadMyBookFromFireBase
+     * @param myCallback part of loadMyBooks
      */
     public void loadMyBookFromFireBase(final loadBookCallBack myCallback){
         DatabaseReference userReference = FirebaseDatabase.getInstance().getReference().child("books");

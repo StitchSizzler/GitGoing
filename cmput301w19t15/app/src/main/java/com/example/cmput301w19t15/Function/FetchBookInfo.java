@@ -1,4 +1,4 @@
-package com.example.cmput301w19t15.Functions;
+package com.example.cmput301w19t15.Function;
 
 import android.os.AsyncTask;
 import android.util.Log;

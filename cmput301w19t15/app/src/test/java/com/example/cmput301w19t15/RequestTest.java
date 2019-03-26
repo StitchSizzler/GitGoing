@@ -1,6 +1,6 @@
 package com.example.cmput301w19t15;
 
-import com.example.cmput301w19t15.InProgress.Request;
+import com.example.cmput301w19t15.ToDo.Request;
 import com.example.cmput301w19t15.Objects.Book;
 import com.example.cmput301w19t15.Objects.User;
 

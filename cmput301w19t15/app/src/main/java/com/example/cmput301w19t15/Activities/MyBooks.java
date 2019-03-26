@@ -12,7 +12,7 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package com.example.cmput301w19t15.Activity;
+package com.example.cmput301w19t15.Activities;
 //:)
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -23,11 +23,10 @@ import android.view.View;
 import android.widget.Button;
 import android.content.Intent;
 
-import com.example.cmput301w19t15.Functions.FetchBookWithID;
-import com.example.cmput301w19t15.Functions.FetchBookWithList;
-import com.example.cmput301w19t15.InProgress.Exchange;
-import com.example.cmput301w19t15.InProgress.AcceptPage;
-import com.example.cmput301w19t15.InProgress.Location;
+import com.example.cmput301w19t15.Function.FetchBookWithList;
+import com.example.cmput301w19t15.ToDo.Exchange;
+import com.example.cmput301w19t15.ToDo.AcceptPage;
+import com.example.cmput301w19t15.ToDo.Location;
 import com.example.cmput301w19t15.Objects.Book;
 import com.example.cmput301w19t15.Objects.BookAdapter;
 import com.example.cmput301w19t15.R;

@@ -1,4 +1,4 @@
-package com.example.cmput301w19t15.Activity;
+package com.example.cmput301w19t15.Activities;
 //:)
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

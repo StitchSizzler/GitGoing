@@ -1,4 +1,4 @@
-package com.example.cmput301w19t15.Activity;
+package com.example.cmput301w19t15.Activities;
 //:)
 
 import android.app.Activity;
@@ -10,8 +10,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.cmput301w19t15.Functions.FetchBookInfo;
-import com.example.cmput301w19t15.Functions.ScanBarcode;
+import com.example.cmput301w19t15.Function.ScanBarcode;
 import com.example.cmput301w19t15.Objects.Book;
 import com.example.cmput301w19t15.Objects.Notification;
 import com.example.cmput301w19t15.Objects.User;

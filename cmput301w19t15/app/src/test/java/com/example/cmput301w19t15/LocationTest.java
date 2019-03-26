@@ -1,6 +1,6 @@
 package com.example.cmput301w19t15;
 
-import com.example.cmput301w19t15.InProgress.Location;
+import com.example.cmput301w19t15.ToDo.Location;
 
 import org.junit.Test;
 import static org.junit.Assert.*;

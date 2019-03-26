@@ -1,4 +1,4 @@
-package com.example.cmput301w19t15.Activity;
+package com.example.cmput301w19t15.Activities;
 //:)
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
-import com.example.cmput301w19t15.Functions.ConvertPhoto;
+import com.example.cmput301w19t15.Function.ConvertPhoto;
 import com.example.cmput301w19t15.Objects.Book;
 import com.example.cmput301w19t15.R;
 import com.example.cmput301w19t15.Objects.User;
@@ -99,7 +99,7 @@ public class BookInfo extends AppCompatActivity {
         String author = authorEditText.getText().toString();
         String isbn = ISBNEditText.getText().toString();
         loggedInUser.removeMyBooks(book);
-        book.setTitle(title);
+        book.setBookName(title);
         book.setAuthor(author);
         book.setISBN(isbn);
         loggedInUser.addToMyBooks(book);

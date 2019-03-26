@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.cmput301w19t15.Activity.BookInfo;
-import com.example.cmput301w19t15.Functions.ConvertPhoto;
-import com.example.cmput301w19t15.Activity.FindBooks;
-import com.example.cmput301w19t15.Activity.MyBooks;
+import com.example.cmput301w19t15.Activities.BookInfo;
+import com.example.cmput301w19t15.Function.ConvertPhoto;
+import com.example.cmput301w19t15.Activities.FindBooks;
+import com.example.cmput301w19t15.Activities.MyBooks;
 import com.example.cmput301w19t15.R;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.example.cmput301w19t15.InProgress;
+package com.example.cmput301w19t15.ToDo;
 //:)
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.cmput301w19t15.Objects.Book;
-import com.example.cmput301w19t15.Activity.MainActivity;
+import com.example.cmput301w19t15.Activities.MainActivity;
 import com.example.cmput301w19t15.Objects.Notification;
 import com.example.cmput301w19t15.R;
 import com.example.cmput301w19t15.Objects.User;

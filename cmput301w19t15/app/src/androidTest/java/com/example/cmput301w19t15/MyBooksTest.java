@@ -3,7 +3,7 @@ package com.example.cmput301w19t15;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 
-import com.example.cmput301w19t15.Activity.MainActivity;
+import com.example.cmput301w19t15.Activities.MainActivity;
 
 import org.junit.Rule;
 import org.junit.runner.RunWith;

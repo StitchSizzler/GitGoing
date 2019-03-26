@@ -5,8 +5,8 @@ import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.widget.EditText;
 
-import com.example.cmput301w19t15.Activity.LoginActivity;
-import com.example.cmput301w19t15.Activity.MainActivity;
+import com.example.cmput301w19t15.Activities.LoginActivity;
+import com.example.cmput301w19t15.Activities.MainActivity;
 import com.robotium.solo.Solo;
 
 import org.junit.After;

@@ -1,10 +1,10 @@
-package com.example.cmput301w19t15.Functions;
+package com.example.cmput301w19t15.Function;
 //:)
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.util.Base64;
 
-import com.example.cmput301w19t15.Activity.AddBookInfo;
+import com.example.cmput301w19t15.Activities.AddBookInfo;
 
 import java.io.ByteArrayOutputStream;
 

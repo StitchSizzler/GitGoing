@@ -1,5 +1,5 @@
 
-package com.example.cmput301w19t15.Activity;
+package com.example.cmput301w19t15.Activities;
 //:)
 import android.app.Activity;
 import android.content.DialogInterface;
@@ -18,10 +18,9 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.example.cmput301w19t15.Objects.Book;
-import com.example.cmput301w19t15.Functions.ConvertPhoto;
-import com.example.cmput301w19t15.Functions.FetchBookInfo;
+import com.example.cmput301w19t15.Function.FetchBookInfo;
 import com.example.cmput301w19t15.R;
-import com.example.cmput301w19t15.Functions.ScanBarcode;
+import com.example.cmput301w19t15.Function.ScanBarcode;
 import com.example.cmput301w19t15.Objects.User;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -33,7 +32,7 @@ import java.io.IOException;
 
 import me.dm7.barcodescanner.zxing.ZXingScannerView;
 
-import static com.example.cmput301w19t15.Functions.ConvertPhoto.*;
+import static com.example.cmput301w19t15.Function.ConvertPhoto.*;
 
 /**
  * this activity is to add information about the book

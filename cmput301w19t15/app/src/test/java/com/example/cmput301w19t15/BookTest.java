@@ -28,9 +28,9 @@ public class BookTest {
     @Test
     public void testSetTitle() {
         Book x = new Book("testTitle","testAuthor","123","testPhoto","testOwnerEmail","testOwnerID");
-        x.setTitle("Gradle");
+        x.setBookName("Gradle");
         assertEquals(x.getTitle(),"Gradle");
-        x.setTitle("Example2");
+        x.setBookName("Example2");
         assertEquals(x.getTitle(),"Example2");
     }
     @Test

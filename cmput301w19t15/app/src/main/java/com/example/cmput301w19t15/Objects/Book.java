@@ -1,15 +1,15 @@
 package com.example.cmput301w19t15.Objects;
 //:)
 
-import com.example.cmput301w19t15.Activity.AddBookInfo;
-import com.example.cmput301w19t15.Activity.BookInfo;
-import com.example.cmput301w19t15.Functions.BookMethodCalls;
-import com.example.cmput301w19t15.InProgress.BorrowerBookView;
-import com.example.cmput301w19t15.InProgress.DetailedBookInfo;
-import com.example.cmput301w19t15.Activity.FindBooks;
-import com.example.cmput301w19t15.Activity.MyBooks;
-import com.example.cmput301w19t15.InProgress.Request;
-import com.example.cmput301w19t15.Activity.RequestedBookList;
+import com.example.cmput301w19t15.Activities.AddBookInfo;
+import com.example.cmput301w19t15.Activities.BookInfo;
+import com.example.cmput301w19t15.Function.BookMethodCalls;
+import com.example.cmput301w19t15.ToDo.BorrowerBookView;
+import com.example.cmput301w19t15.ToDo.DetailedBookInfo;
+import com.example.cmput301w19t15.Activities.FindBooks;
+import com.example.cmput301w19t15.Activities.MyBooks;
+import com.example.cmput301w19t15.ToDo.Request;
+import com.example.cmput301w19t15.Activities.RequestedBookList;
 
 import java.util.ArrayList;
 import java.util.UUID;
@@ -86,7 +86,7 @@ public class Book {
         Accepted,
         Borrowed
     }
-    public void setTitle(String title) {
+    public void setBookName(String title) {
         this.title = title;
     }
     public String getTitle() {

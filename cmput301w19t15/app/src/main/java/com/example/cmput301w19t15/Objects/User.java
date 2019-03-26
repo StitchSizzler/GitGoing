@@ -17,9 +17,9 @@ package com.example.cmput301w19t15.Objects;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
-import com.example.cmput301w19t15.Activity.FindUsers;
-import com.example.cmput301w19t15.Activity.LoginActivity;
-import com.example.cmput301w19t15.Activity.Profile;
+import com.example.cmput301w19t15.Activities.FindUsers;
+import com.example.cmput301w19t15.Activities.LoginActivity;
+import com.example.cmput301w19t15.Activities.Profile;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -354,7 +354,7 @@ public class User {
      */
     public void loadBooks(final String bookListType){
         this.bookListType = bookListType;
-        loadMyBookFromFireBase(new loadBookCallBack() {
+        loadMyBooks(new loadBookCallBack() {
             @Override
             public void loadBookCallBack(ArrayList<Book> value) {
                 switch(bookListType) {
@@ -427,7 +427,7 @@ public class User {
      * @reuse https://stackoverflow.com/questions/47847694/how-to-return-datasnapshot-value-as-a-result-of-a-method
      * @param myCallback the my callback
      */
-    public void loadMyBookFromFireBase(final loadBookCallBack myCallback){
+    public void loadMyBooks(final loadBookCallBack myCallback){
         DatabaseReference userReference = FirebaseDatabase.getInstance().getReference().child("users").child(this.userID).child(bookListType);
         userReference.addValueEventListener(new ValueEventListener() {
             @Override
